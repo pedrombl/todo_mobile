@@ -16,7 +16,7 @@ public class Todo_mobile extends Activity
 
         Launcher.launchKernel("com.todo_mobile", this, getApplication(), new Runnable() {
           public void run() {
-            Launcher.launchFlow("example.converter.start");
+            Launcher.launchFlow("app.toDo.start");
           }
         });
     }

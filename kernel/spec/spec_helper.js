@@ -28,10 +28,15 @@ function recursiveExtend(moduleToExtend, module) {
 example = {};
 recursiveExtend(example, require('controller.converter').example);
 
+app = {}
+recursiveExtend(app, require('model.todo').app);
+recursiveExtend(app, require('controller.todo').app);
+
 exports.stubView = stubView;
 exports.tw = tw;
 exports.appDir = __dirname + "/../app";
 exports.example = example;
+exports.app = app;
 
 // Custom matchers:
 beforeEach(function() {

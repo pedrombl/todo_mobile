@@ -30,6 +30,7 @@ recursiveExtend(example, require('controller.converter').example);
 
 app = {}
 recursiveExtend(app, require('model.todo').app);
+recursiveExtend(app, require('controller.todo').app);
 
 exports.stubView = stubView;
 exports.tw = tw;

@@ -1,36 +1,36 @@
 exports = require 'spec_helper'
-ToDos = exports.app.model.todos
+ToDos = exports.app.model.toDos
 
 describe 'Todo', ->
-  todos = null
+  subject = null
 
   beforeEach ->
-    todos = ToDos()
+    subject = ToDos()
 
   it 'should be created', ->
-    todos.create description: 'Create a calatrava app'
-    expect(todos.all.length).toBe 1
-    expect(todos.all[0].id).toBe 1
-    expect(todos.all[0].description).toBe 'Create a calatrava app'
+    subject.create description: 'Create a calatrava app'
+    expect(subject.all.length).toBe 1
+    expect(subject.all[0].id).toBe 1
+    expect(subject.all[0].description).toBe 'Create a calatrava app'
 
   describe 'A existing todo', ->
     beforeEach ->
-      todos.create description: 'Create a calatrava app'
+      subject.create description: 'Create a calatrava app'
 
     it 'should be updated', ->
-      todos.update id: 1, description: 'Update a calatrava app'
-      expect(todos.all.length).toBe 1
-      expect(todos.all[0].description).toBe 'Update a calatrava app'
+      subject.update id: 1, description: 'Update a calatrava app'
+      expect(subject.all.length).toBe 1
+      expect(subject.all[0].description).toBe 'Update a calatrava app'
 
     it 'should not be updated if id not exists', ->
-      todos.update id: 6, description: 'Update a calatrava app'
-      expect(todos.all.length).toBe 1
-      expect(todos.all[0].description).toBe 'Create a calatrava app'
+      subject.update id: 6, description: 'Update a calatrava app'
+      expect(subject.all.length).toBe 1
+      expect(subject.all[0].description).toBe 'Create a calatrava app'
 
     it 'should be deleted', ->
-      todos.remove id: 1
-      expect(todos.all.length).toBe 0
+      subject.remove id: 1
+      expect(subject.all.length).toBe 0
 
     it 'should not be deleted if id not exists', ->
-      todos.remove id: 5
-      expect(todos.all.length).toBe 1
+      subject.remove id: 5
+      expect(subject.all.length).toBe 1

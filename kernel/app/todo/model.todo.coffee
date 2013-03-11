@@ -30,4 +30,4 @@ ToDos = ->
   remove: remove
 
 app.model ?= {}
-app.model.todos = ToDos
+app.model.toDos = ToDos

@@ -1,3 +1,3 @@
-web/apache/logs/
-web/public/
-.node_updated
+.*
+/web/public/*
+/web/apache/logs/*

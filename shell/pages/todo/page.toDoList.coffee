@@ -7,9 +7,7 @@ calatrava.pageView.toDoList = ->
 
   bind = (event, handler) ->
     console.log "Binding event #{event}"
-    switch event
-      when 'dummy' then console.log 'dummy'
-      else $p(event).click handler
+    $p(event).click handler
 
   get = (field) ->
     console.log "Getting value of #{field}"

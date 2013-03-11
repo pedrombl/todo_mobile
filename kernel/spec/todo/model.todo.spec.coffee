@@ -1,11 +1,11 @@
 exports = require 'spec_helper'
-Todos = exports.app.model.todos
+ToDos = exports.app.model.todos
 
 describe 'Todo', ->
   todos = null
 
   beforeEach ->
-    todos = Todos()
+    todos = ToDos()
 
   it 'should be created', ->
     todos.create description: 'Create a calatrava app'

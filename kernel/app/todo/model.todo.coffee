@@ -1,14 +1,14 @@
-Todo = (id, description, isDone = false) ->
+ToDo = (id, description, isDone = false) ->
   id: id
   description: description
   isDone: isDone
 
-Todos = ->
+ToDos = ->
   idSequence = 0
   all = []
 
   create = (todo) ->
-    all.push Todo(++idSequence, todo.description, todo.isDone)
+    all.push ToDo(++idSequence, todo.description, todo.isDone)
 
   update = (todo) ->
     actual = find todo
@@ -30,4 +30,4 @@ Todos = ->
   remove: remove
 
 app.model ?= {}
-app.model.todos = Todos
+app.model.todos = ToDos

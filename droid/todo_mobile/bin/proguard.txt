@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:17
+-keep class com.calatrava.bridge.RhinoService { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.todo_mobile.ToDoList { <init>(...); }
+
+# view AndroidManifest.xml #generated:7
+-keep class com.todo_mobile.Todo_mobile { <init>(...); }
+

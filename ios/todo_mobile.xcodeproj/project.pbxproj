@@ -1,751 +1,318 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key></key>
-		<dict>
-			<key>files</key>
-			<array>
-				<string>042290ED249E43B3B17D2635</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-		</dict>
-		<key>028AB934915C415F9F10699A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ConversionFormViewController.xib</string>
-			<key>path</key>
-			<string>src/ConversionFormViewController.xib</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>042290ED249E43B3B17D2635</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F18FF038EFA041EA9F9AF7B3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>116F4078081E4DC89801A631</key>
-		<dict>
-			<key>fileRef</key>
-			<string>543E83926DA943D8A90C9AFD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>11880364E3DD4E72A94A1DAE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2C838D89337488E98E93E05</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>11AFEF59FBC644EB8E50E47F</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0450</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>9827BA872A924F0EB4F05827</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>47D26E72B3F6449DB0CBD6DE</string>
-			<key>productRefGroup</key>
-			<string>1F6809B07ECA49E49259AF43</string>
-			<key>projectReferences</key>
-			<array/>
-			<key>targets</key>
-			<array>
-				<string>C2FA141A1A33458DB0DC9763</string>
-			</array>
-		</dict>
-		<key>1B21F0131F524D208ED034A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DE465594B8F34DA38B601778</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>1DD065A8140247F987593FCB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Build Calatrava Kernel &amp; Shell</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/bash</string>
-			<key>shellScript</key>
-			<string>source ${SRCROOT}/../build_env.sh
-bundle exec rake ios:xcode:prebuild</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>1F6809B07ECA49E49259AF43</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>87784687E66B46A3976483F3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36D1E13526314467AAAE091C</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>79F9DF57461D4F6980402EB5</string>
-				<string>F21C8FE13B934BB9B04FB562</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>3929859139524BB5ACA0C6FE</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>3CF6482378F44338B8896E35</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AppDelegate.h</string>
-			<key>path</key>
-			<string>src/AppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>47D26E72B3F6449DB0CBD6DE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1F6809B07ECA49E49259AF43</string>
-				<string>DEEF531B4BEF4B808959E92E</string>
-				<string>3CF6482378F44338B8896E35</string>
-				<string>F2C838D89337488E98E93E05</string>
-				<string>C75F86252D8941888963997F</string>
-				<string>DE465594B8F34DA38B601778</string>
-				<string>028AB934915C415F9F10699A</string>
-				<string>F16D2D8945C648B8B8F1BBE3</string>
-				<string>8DDEFF88BE664B5EB6BC2389</string>
-				<string>4CC3021C8A6C4A498862ACD2</string>
-				<string>608C27CA839A41E199A0ADD5</string>
-				<string>F18FF038EFA041EA9F9AF7B3</string>
-				<string>E763CB69DF5B4E44B2ACE5ED</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4CC3021C8A6C4A498862ACD2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>todo_mobile-Info.plist</string>
-			<key>path</key>
-			<string>src/todo_mobile-Info.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>543E83926DA943D8A90C9AFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>5597566C99074F59A67580C6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8DDEFF88BE664B5EB6BC2389</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>5B0EFE49CA0A4141A23DD3D6</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>608C27CA839A41E199A0ADD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>todo_mobile-Prefix.pch</string>
-			<key>path</key>
-			<string>src/todo_mobile-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>7148466862D941FC8624F3F7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4CC3021C8A6C4A498862ACD2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>75482636BAB146EDB0AE89C3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>79F9DF57461D4F6980402EB5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E763CB69DF5B4E44B2ACE5ED</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>src/todo_mobile-Prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INFOPLIST_FILE</key>
-				<string>src/todo_mobile-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<array>
-					<string>-ObjC</string>
-					<string>-all_load</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>87784687E66B46A3976483F3</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libtodo_mobile.a</string>
-			<key>path</key>
-			<string>libtodo_mobile.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8882A7D05C7E4838A411A5CA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>path</key>
-			<string>src/en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8DDEFF88BE664B5EB6BC2389</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>main.m</string>
-			<key>path</key>
-			<string>src/main.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>9827BA872A924F0EB4F05827</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>5B0EFE49CA0A4141A23DD3D6</string>
-				<string>FA0AF8BD760C498BB2C683DC</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9FA1F62F584C421BA4787B48</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>1</string>
-		</dict>
-		<key>A68ADC5D5D5446868281F220</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>11880364E3DD4E72A94A1DAE</string>
-				<string>1B21F0131F524D208ED034A5</string>
-				<string>DFD35BEDB41041528327575A</string>
-				<string>D24048D1903840928B040703</string>
-				<string>5597566C99074F59A67580C6</string>
-				<string>7148466862D941FC8624F3F7</string>
-				<string>E2BAEA08E55D47129BDA270F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A72CA3B48050451DB8BA8D0F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3929859139524BB5ACA0C6FE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>B655751829E0468EB2E9F618</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ED882DC74DDE402480B57269</string>
-				<string>D2EE9291432143069246E50E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B6C292BD0F8E493894A4134E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D9453F3E43664DED8BA4C9EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>BED3C9B4FB534C709D9B58F1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B6C292BD0F8E493894A4134E</string>
-				<string>E4C63F0731D44876AED2F24E</string>
-				<string>116F4078081E4DC89801A631</string>
-				<string>A72CA3B48050451DB8BA8D0F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C2FA141A1A33458DB0DC9763</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>36D1E13526314467AAAE091C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1DD065A8140247F987593FCB</string>
-				<string>A68ADC5D5D5446868281F220</string>
-				<string>BED3C9B4FB534C709D9B58F1</string>
-				<string>B655751829E0468EB2E9F618</string>
-				<string></string>
-				<string>9FA1F62F584C421BA4787B48</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>todo_mobile</string>
-			<key>productName</key>
-			<string>todo_mobile</string>
-			<key>productReference</key>
-			<string>87784687E66B46A3976483F3</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>C75F86252D8941888963997F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ConversionFormViewController.h</string>
-			<key>path</key>
-			<string>src/ConversionFormViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>D24048D1903840928B040703</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8882A7D05C7E4838A411A5CA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D2EE9291432143069246E50E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C75F86252D8941888963997F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>D9453F3E43664DED8BA4C9EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>DE465594B8F34DA38B601778</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>ConversionFormViewController.m</string>
-			<key>path</key>
-			<string>src/ConversionFormViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>DEEF531B4BEF4B808959E92E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D9453F3E43664DED8BA4C9EB</string>
-				<string>75482636BAB146EDB0AE89C3</string>
-				<string>543E83926DA943D8A90C9AFD</string>
-				<string>3929859139524BB5ACA0C6FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DFD35BEDB41041528327575A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>028AB934915C415F9F10699A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E2BAEA08E55D47129BDA270F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>608C27CA839A41E199A0ADD5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E4C63F0731D44876AED2F24E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>75482636BAB146EDB0AE89C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>E763CB69DF5B4E44B2ACE5ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>ED882DC74DDE402480B57269</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3CF6482378F44338B8896E35</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>F16D2D8945C648B8B8F1BBE3</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8882A7D05C7E4838A411A5CA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>en.lproj</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F18FF038EFA041EA9F9AF7B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder</string>
-			<key>name</key>
-			<string>public</string>
-			<key>path</key>
-			<string>public</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>F21C8FE13B934BB9B04FB562</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E763CB69DF5B4E44B2ACE5ED</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>ARCHS</key>
-				<string>$(ARCHS_STANDARD_32_BIT)</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>src/todo_mobile-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INFOPLIST_FILE</key>
-				<string>src/todo_mobile-Info.plist</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>5.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<array>
-					<string>-ObjC</string>
-					<string>-all_load</string>
-				</array>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F2C838D89337488E98E93E05</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>AppDelegate.m</string>
-			<key>path</key>
-			<string>src/AppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>FA0AF8BD760C498BB2C683DC</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict/>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>11AFEF59FBC644EB8E50E47F</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042290ED249E43B3B17D2635 /* public in Resources */ = {isa = PBXBuildFile; fileRef = F18FF038EFA041EA9F9AF7B3 /* public */; };
+		116F4078081E4DC89801A631 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 543E83926DA943D8A90C9AFD /* CoreGraphics.framework */; };
+		11880364E3DD4E72A94A1DAE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2C838D89337488E98E93E05 /* AppDelegate.m */; };
+		1B21F0131F524D208ED034A5 /* ConversionFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE465594B8F34DA38B601778 /* ConversionFormViewController.m */; };
+		5597566C99074F59A67580C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEFF88BE664B5EB6BC2389 /* main.m */; };
+		7148466862D941FC8624F3F7 /* todo_mobile-Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 4CC3021C8A6C4A498862ACD2 /* todo_mobile-Info.plist */; };
+		A72CA3B48050451DB8BA8D0F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3929859139524BB5ACA0C6FE /* libPods.a */; };
+		B6C292BD0F8E493894A4134E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9453F3E43664DED8BA4C9EB /* Foundation.framework */; };
+		D24048D1903840928B040703 /* InfoPlist.strings in Sources */ = {isa = PBXBuildFile; fileRef = 8882A7D05C7E4838A411A5CA /* InfoPlist.strings */; };
+		D2EE9291432143069246E50E /* ConversionFormViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C75F86252D8941888963997F /* ConversionFormViewController.h */; };
+		DFD35BEDB41041528327575A /* ConversionFormViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 028AB934915C415F9F10699A /* ConversionFormViewController.xib */; };
+		E2BAEA08E55D47129BDA270F /* todo_mobile-Prefix.pch in Sources */ = {isa = PBXBuildFile; fileRef = 608C27CA839A41E199A0ADD5 /* todo_mobile-Prefix.pch */; };
+		E4C63F0731D44876AED2F24E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75482636BAB146EDB0AE89C3 /* UIKit.framework */; };
+		ED882DC74DDE402480B57269 /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CF6482378F44338B8896E35 /* AppDelegate.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		028AB934915C415F9F10699A /* ConversionFormViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConversionFormViewController.xib; path = src/ConversionFormViewController.xib; sourceTree = SOURCE_ROOT; };
+		3929859139524BB5ACA0C6FE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF6482378F44338B8896E35 /* AppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = src/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		4CC3021C8A6C4A498862ACD2 /* todo_mobile-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "todo_mobile-Info.plist"; path = "src/todo_mobile-Info.plist"; sourceTree = SOURCE_ROOT; };
+		543E83926DA943D8A90C9AFD /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		608C27CA839A41E199A0ADD5 /* todo_mobile-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "todo_mobile-Prefix.pch"; path = "src/todo_mobile-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		75482636BAB146EDB0AE89C3 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		87784687E66B46A3976483F3 /* todo_mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_mobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8882A7D05C7E4838A411A5CA /* InfoPlist.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = InfoPlist.strings; path = src/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		8DDEFF88BE664B5EB6BC2389 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = SOURCE_ROOT; };
+		C75F86252D8941888963997F /* ConversionFormViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ConversionFormViewController.h; path = src/ConversionFormViewController.h; sourceTree = SOURCE_ROOT; };
+		D9453F3E43664DED8BA4C9EB /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE465594B8F34DA38B601778 /* ConversionFormViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ConversionFormViewController.m; path = src/ConversionFormViewController.m; sourceTree = SOURCE_ROOT; };
+		E763CB69DF5B4E44B2ACE5ED /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		F18FF038EFA041EA9F9AF7B3 /* public */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = public; sourceTree = SOURCE_ROOT; };
+		F2C838D89337488E98E93E05 /* AppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = src/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BED3C9B4FB534C709D9B58F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6C292BD0F8E493894A4134E /* Foundation.framework in Frameworks */,
+				E4C63F0731D44876AED2F24E /* UIKit.framework in Frameworks */,
+				116F4078081E4DC89801A631 /* CoreGraphics.framework in Frameworks */,
+				A72CA3B48050451DB8BA8D0F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6809B07ECA49E49259AF43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87784687E66B46A3976483F3 /* todo_mobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D26E72B3F6449DB0CBD6DE = {
+			isa = PBXGroup;
+			children = (
+				1F6809B07ECA49E49259AF43 /* Products */,
+				DEEF531B4BEF4B808959E92E /* Frameworks */,
+				3CF6482378F44338B8896E35 /* AppDelegate.h */,
+				F2C838D89337488E98E93E05 /* AppDelegate.m */,
+				C75F86252D8941888963997F /* ConversionFormViewController.h */,
+				DE465594B8F34DA38B601778 /* ConversionFormViewController.m */,
+				028AB934915C415F9F10699A /* ConversionFormViewController.xib */,
+				F16D2D8945C648B8B8F1BBE3 /* en.lproj */,
+				8DDEFF88BE664B5EB6BC2389 /* main.m */,
+				4CC3021C8A6C4A498862ACD2 /* todo_mobile-Info.plist */,
+				608C27CA839A41E199A0ADD5 /* todo_mobile-Prefix.pch */,
+				F18FF038EFA041EA9F9AF7B3 /* public */,
+				E763CB69DF5B4E44B2ACE5ED /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DEEF531B4BEF4B808959E92E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9453F3E43664DED8BA4C9EB /* Foundation.framework */,
+				75482636BAB146EDB0AE89C3 /* UIKit.framework */,
+				543E83926DA943D8A90C9AFD /* CoreGraphics.framework */,
+				3929859139524BB5ACA0C6FE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F16D2D8945C648B8B8F1BBE3 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				8882A7D05C7E4838A411A5CA /* InfoPlist.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B655751829E0468EB2E9F618 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED882DC74DDE402480B57269 /* AppDelegate.h in Headers */,
+				D2EE9291432143069246E50E /* ConversionFormViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C2FA141A1A33458DB0DC9763 /* todo_mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D1E13526314467AAAE091C /* Build configuration list for PBXNativeTarget "todo_mobile" */;
+			buildPhases = (
+				1DD065A8140247F987593FCB /* Build Calatrava Kernel & Shell */,
+				A68ADC5D5D5446868281F220 /* Sources */,
+				BED3C9B4FB534C709D9B58F1 /* Frameworks */,
+				B655751829E0468EB2E9F618 /* Headers */,
+				"" /* Resources */,
+				9FA1F62F584C421BA4787B48 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todo_mobile;
+			productName = todo_mobile;
+			productReference = 87784687E66B46A3976483F3 /* todo_mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11AFEF59FBC644EB8E50E47F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 9827BA872A924F0EB4F05827 /* Build configuration list for PBXProject "todo_mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 47D26E72B3F6449DB0CBD6DE;
+			productRefGroup = 1F6809B07ECA49E49259AF43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FA141A1A33458DB0DC9763 /* todo_mobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		"" /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				042290ED249E43B3B17D2635 /* public in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DD065A8140247F987593FCB /* Build Calatrava Kernel & Shell */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Calatrava Kernel & Shell";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "eval `/usr/libexec/path_helper -s`\nsource ${SRCROOT}/../build_env.sh\nbundle exec rake ios:xcode:prebuild";
+		};
+		9FA1F62F584C421BA4787B48 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A68ADC5D5D5446868281F220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11880364E3DD4E72A94A1DAE /* AppDelegate.m in Sources */,
+				1B21F0131F524D208ED034A5 /* ConversionFormViewController.m in Sources */,
+				DFD35BEDB41041528327575A /* ConversionFormViewController.xib in Sources */,
+				D24048D1903840928B040703 /* InfoPlist.strings in Sources */,
+				5597566C99074F59A67580C6 /* main.m in Sources */,
+				7148466862D941FC8624F3F7 /* todo_mobile-Info.plist in Sources */,
+				E2BAEA08E55D47129BDA270F /* todo_mobile-Prefix.pch in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5B0EFE49CA0A4141A23DD3D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		79F9DF57461D4F6980402EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E763CB69DF5B4E44B2ACE5ED /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/todo_mobile-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "src/todo_mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21C8FE13B934BB9B04FB562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E763CB69DF5B4E44B2ACE5ED /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/todo_mobile-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "src/todo_mobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		FA0AF8BD760C498BB2C683DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D1E13526314467AAAE091C /* Build configuration list for PBXNativeTarget "todo_mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79F9DF57461D4F6980402EB5 /* Release */,
+				F21C8FE13B934BB9B04FB562 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9827BA872A924F0EB4F05827 /* Build configuration list for PBXProject "todo_mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B0EFE49CA0A4141A23DD3D6 /* Release */,
+				FA0AF8BD760C498BB2C683DC /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11AFEF59FBC644EB8E50E47F /* Project object */;
+}

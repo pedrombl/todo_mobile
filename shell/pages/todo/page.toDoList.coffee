@@ -6,15 +6,12 @@ calatrava.pageView.toDoList = ->
   $p = (sel)-> $('#' + sel, $page)
 
   bind = (event, handler) ->
-    console.log "Binding event #{event}"
-    $p(event).click handler
+    $p(event).off('click').on 'click', handler
 
   get = (field) ->
-    console.log "Getting value of #{field}"
     $p(field).val()
 
   render = (message) ->
-    console.log "Rendering message #{JSON.stringify(message)}"
     renderSection(section, data) for own section, data of message
 
   renderSection = (key, data) ->

@@ -10,16 +10,13 @@
       return $('#' + sel, $page);
     };
     bind = function(event, handler) {
-      console.log("Binding event " + event);
-      return $p(event).click(handler);
+      return $p(event).off('click').on('click', handler);
     };
     get = function(field) {
-      console.log("Getting value of " + field);
       return $p(field).val();
     };
     render = function(message) {
       var data, section, _results;
-      console.log("Rendering message " + (JSON.stringify(message)));
       _results = [];
       for (section in message) {
         if (!__hasProp.call(message, section)) continue;

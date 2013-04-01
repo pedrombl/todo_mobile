@@ -11,7 +11,7 @@
       },
       changePage: calatrava.bridge.changePage,
       ajax: calatrava.bridge.request,
-      ToDos: app.model.toDos()
+      ToDos: app.model.toDos(localStorage)
     });
     return calatrava.bridge.changePage("toDoList");
   };

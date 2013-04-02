@@ -7,6 +7,6 @@ app.toDo.start = ->
       toDoList: calatrava.bridge.pages.pageNamed "toDoList"
     changePage: calatrava.bridge.changePage
     ajax: calatrava.bridge.request
-    ToDos: app.model.toDos(localStorage)
+    ToDos: app.model.toDos()
 
   calatrava.bridge.changePage "toDoList"

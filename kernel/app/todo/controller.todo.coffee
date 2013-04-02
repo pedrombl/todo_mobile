@@ -6,7 +6,16 @@ ToDo = ({ views, changePage, ajax, ToDos }) ->
       ToDos.create description: description
       renderAll()
 
-  renderAll = () ->
+  toDoList.bind 'checked', (todo, checked) ->
+    todo.isDone = checked
+    ToDos.update todo
+    renderAll()
+
+  toDoList.bind 'remove', (todo) ->
+    ToDos.remove todo
+    renderAll()
+
+  renderAll = ->
     toDoList.render 
       toDos: ToDos.all
 

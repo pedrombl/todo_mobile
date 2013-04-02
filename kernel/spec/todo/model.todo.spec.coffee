@@ -5,7 +5,7 @@ describe 'Todo', ->
   subject = null
 
   beforeEach ->
-    subject = ToDos {}
+    subject = ToDos() 
 
   it 'should be created', ->
     subject.create description: 'Create a calatrava app'

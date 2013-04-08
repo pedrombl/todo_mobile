@@ -17,7 +17,7 @@ public class ToDoList extends WebViewActivity
 
   @Override
   protected List<String> getEvents() {
-    return Arrays.asList("addNewToDo");
+    return Arrays.asList("addNewToDo", "remove", "checked");
   }
 
   @Override

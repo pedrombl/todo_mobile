@@ -3,3 +3,4 @@ web/public/*
 web/apache/logs/*
 droid/*/assets/*
 droid/*/bin/*
+artifacts/*

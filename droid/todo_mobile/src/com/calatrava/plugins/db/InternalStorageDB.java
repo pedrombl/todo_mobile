@@ -4,6 +4,7 @@ import static android.content.Context.MODE_PRIVATE;
 import static android.util.Log.e;
 import static android.util.Log.i;
 
+import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -39,15 +40,14 @@ public class InternalStorageDB implements DB {
 		FileInputStream store = null;
 		try {
 			store = context.openFileInput(key);
-			StringBuilder result = new StringBuilder();
+			ByteArrayOutputStream result = new ByteArrayOutputStream();
 			
 			int value;
 			while ((value = store.read()) != -1)
-				result.append(value);
+				result.write(value);
 
 			i(TAG, "Getting " + key + " as " + result.toString());
-			
-			return result.toString();
+			return new String(result.toByteArray());
 		} catch (IOException e) {
 			e(TAG, e.getMessage(), e);
 			return null;

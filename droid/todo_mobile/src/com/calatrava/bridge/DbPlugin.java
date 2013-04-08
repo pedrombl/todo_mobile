@@ -4,6 +4,8 @@ import static com.calatrava.plugins.db.DB.GET_METHOD;
 import static com.calatrava.plugins.db.DB.REMOVE_METHOD;
 import static com.calatrava.plugins.db.DB.STORE_METHOD;
 
+import static android.util.Log.i;
+
 import java.util.Map;
 
 import android.content.Context;
@@ -15,10 +17,14 @@ import com.calatrava.plugins.db.InternalStorageDB;
 
 @CalatravaPlugin(name = "db")
 public class DbPlugin implements RegisteredPlugin {
+
+	private static final String TAG = DbPlugin.class.getSimpleName();
 	
 	private static final String METHOD = "method";
 	private static final String KEY = "key";
 	private static final String VALUE = "value";
+
+	private static final String GET_CALLBACK = "getCallback";
 	
 	private PluginRegistry registry;
 	private Context context;
@@ -36,9 +42,16 @@ public class DbPlugin implements RegisteredPlugin {
 		registry.installCommand("db", new PluginCommand() { @Override public void execute(Intent action, RegisteredActivity frontmost) {
 			String method = (String) action.getExtras().get(METHOD);
 			String key = (String) action.getExtras().get(KEY);
+
+			i(TAG, "Calling plugin method " + method + " for key " + key);
 			
-			if (GET_METHOD.equals(method)) store.get(key);
-			if (REMOVE_METHOD.equals(method)) store.get(key);
+			if (REMOVE_METHOD.equals(method)) store.remove(key);
+
+			if (GET_METHOD.equals(method)) {
+				String value = store.get(key);
+				String callback = (String) action.getExtras().get(GET_CALLBACK);
+				DbPlugin.this.registry.invokeCallback(callback, value);
+			}
 			
 			if (STORE_METHOD.equals(method)) {
 				String value = (String) action.getExtras().get(VALUE);
@@ -55,6 +68,9 @@ public class DbPlugin implements RegisteredPlugin {
 
 		Object value = args.get(VALUE);
 		if (value != null) call.putExtra(VALUE, value.toString());
+
+		Object getCallback = args.get(GET_CALLBACK);
+		if (getCallback != null) call.putExtra(GET_CALLBACK, getCallback.toString());
 		
 		context.sendBroadcast(call);
 	}

@@ -3,13 +3,15 @@ calatrava.db ?= {}
 calatrava.db.store = (key, value) ->
   calatrava.bridge.plugins.call 'db', 'store',
     key: key
-    value: value
+    value: JSON.stringify value
 
 calatrava.db.get = (key, callback) ->
-  callbackHandle = calatrava.bridge.plugins.rememberCallback(callback)
+  callbackWrapper = (value) -> callback JSON.parse value
+  callbackHandle = calatrava.bridge.plugins.rememberCallback(callbackWrapper)
+
   calatrava.bridge.plugins.call 'db', 'get',
     key: key
-    callback: callbackHandle
+    getCallback: callbackHandle
 
 calatrava.db.remove = (key) ->
   calatrava.bridge.plugins.call 'db', 'remove',

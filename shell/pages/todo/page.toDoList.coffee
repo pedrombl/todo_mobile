@@ -30,11 +30,11 @@ calatrava.pageView.toDoList = ->
 
   rowFor = (todo) ->
     checkbox = $('<input type="checkbox" />')
-    $(checkbox).on 'click', -> checked todo, !todo.isDone
-    if todo.isDone then checkbox.prop 'checked', true
+    checkbox.on 'click', -> checked JSON.stringify(todo)
+    checkbox.prop 'checked', todo.isDone
 
-    removeLink = $('<a href="javascript:void(0);">x</a>')
-    removeLink.on 'click', -> remove todo
+    removeLink = $('<a href="javascript:void(0);">X</a>')
+    removeLink.on 'click', -> remove JSON.stringify(todo)
 
     container = $('<div></div>')
     container.append checkbox

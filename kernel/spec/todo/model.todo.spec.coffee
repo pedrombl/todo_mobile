@@ -5,7 +5,11 @@ describe 'Todo', ->
   subject = null
 
   beforeEach ->
-    subject = ToDos() 
+    fakeDb = 
+      store: ->
+      get: ->
+
+    subject = ToDos(fakeDb) 
 
   it 'should be created', ->
     subject.create description: 'Create a calatrava app'

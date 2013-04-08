@@ -17,11 +17,12 @@ ToDo = ({ views, changePage, ajax, ToDos }) ->
     ToDos.remove todo
     renderAll()
 
-  renderAll = ->
+  renderAll = (todos) ->
     toDoList.render 
-      toDos: ToDos.all
+      toDos: todos || ToDos.all
 
-  renderAll()
+  ToDos.loadAll (todos) ->
+    renderAll(todos)
 
 app ?= {}
 app.controller ?= {}

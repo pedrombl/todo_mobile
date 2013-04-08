@@ -5,8 +5,16 @@ ToDo = (id, description, isDone = false) ->
 
 ToDos = (db) ->
 
-  idSequence = db.get('idSequence') || 0
-  all = db.get('todos') || []
+  idSequence = 0
+  all = []
+
+  db.get 'idSequence', (sequence) ->
+    idSequence = sequence
+
+  loadAll = (fn) ->
+    db.get 'todos', (todos) ->
+      all.push todo for todo in todos
+      fn(all)
 
   create = (todo) ->
     all.push ToDo(++idSequence, todo.description, todo.isDone)
@@ -33,6 +41,7 @@ ToDos = (db) ->
     db.store 'todos', all
 
   all: all
+  loadAll: loadAll
   create: create
   update: update
   remove: remove

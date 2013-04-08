@@ -2,9 +2,9 @@ LocalStorageDb = ->
   store = (key, value) ->
     localStorage[key] = JSON.stringify value
 
-  get = (key) ->
+  get = (key, callback) ->
     value = localStorage[key]
-    JSON.parse value if value
+    calatrava.bridge.runtime.invokePluginCallback(callback, JSON.parse value) if value
 
   remove = (key) ->
     localStorage.removeItem key
@@ -16,7 +16,11 @@ LocalStorageDb = ->
 calatrava.web ?= {}
 calatrava.web.db = ( -> 
   db = LocalStorageDb()
-  (method, {key, value}) -> db[method] key, value
+  (method, {key, value, callback}) -> 
+    switch method
+      when 'store' then db.store key, value
+      when 'get' then db.get key, callback
+      when 'remove' then db.remove key
 )()
 
 calatrava.bridge.runtime.registerPlugin 'db', calatrava.web.db
